@@ -1,8 +1,9 @@
 body{
+    background-image: url('https://media2.giphy.com/media/kHs1lBhZWaK5rj7lt3/200.webp?cid=ecf05e47ilhzqu79wd1gn065ayemg1ifwkrik2mi68sb8pe5&rid=200.webp&ct=g');
     margin: 0px;
     padding: 0px;
     display: flex;
-    color: red
+    color: rgb(28, 6, 228)
 }
 
 #fill-details{
