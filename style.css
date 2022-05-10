@@ -83,8 +83,8 @@ h1{
     width: 39vw;
     height: 90vh;
     border-radius: 30px;
-    background-image: url('Pictures/image5.jpg');
-    background-size: cover;
+    background-color: aliceblue;
+    font-size:xx-large;
 }
 
 #output-details{
