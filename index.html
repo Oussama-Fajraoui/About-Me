@@ -1,64 +1,366 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to School</title>
-    <link rel="icon" href="Pictures/images.png">
-    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
+	<title>Gamer CV</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <div id="set">
-        <div id="get">
-    <div id="fill-details">
-        <h1>Registration </h1>
-        <form id="fill-form">
-            <div class="form-containers">
-                <label for="namef" class="abbrev">First Name</label>
-                <input type="text" id="namef" class="abbrevdata" placeholder="Your First name">
-            </div>
-            <div class="form-containers">
-                <label for="namel" class="abbrev">Last Name</label>
-                <input type="text" id="namel" class="abbrevdata" placeholder="Your Last name">
-            </div>
-            <div class="form-containers">
-                <label for="adress" class="abbrev">Adress</label>
-                <input type="text" id="adress" class="abbrevdata" placeholder="Your adress">
-            </div>
-            <div class="form-containers">
-                <label for="age" class="abbrev">Age</label>
-                <input type="number" id="age" class="abbrevdata" placeholder="Your Age">
-            </div>
-            <div class="form-containers">
-                <label for="mail" class="abbrev">Email</label>
-                <input type="email" id="mail" class="abbrevdata" placeholder="Your email address">
-            </div>
-            <div>
-                <input type="submit" value="Add Details" id="button-1">
-            </div>
-        </form>
-    </div>
-    <div id="output">
-        <span id="output-details">
-            
-        </span>
-    </div>
 
-    <div id="container">
+  <!-- Preloader Start  -->
+  <div class="preloader">
+     <div class="loader">
+     </div>
+  </div>
+  <!-- Preloader End  -->
+ 
+ <!-- Header Start -->
+ <header class="header">
+ 	<div class="container">
+ 		<div class="row justify-content-between align-items-center">
+ 			<div class="brand-name">
+ 				<a href="index.html">Welcome</a>
+ 			</div>
+      <div class="nav-toggle">
+        <span></span>
+      </div>
+ 			<nav class="nav">
+ 				<ul>
+ 					<li><a href="#home">Home</a></li>
+ 					<li><a href="#about">About</a></li>
+ 					<li><a href="#services">Services</a></li>
+ 					<li><a href="#works">Works</a></li>
+ 					<li><a href="#contact">Contact</a></li>
+ 				</ul>
+ 			</nav>
+ 		</div>
+ 	</div>
+ </header>
+ <!-- Header End -->
+
+ <!-- Home Section Start -->
+ <section class="home-section" id="home">
+ 	<!-- shape -->
+ 	<div class="shape-01">
+ 	</div>
+ 	<div class="container">
+ 		<div class="row align-items-center">
+ 			<div class="home-content">
+ 				<h4>I'm Oussama Fajraoui</h4>
+				 <h1>GAMER</h1>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	<!-- scroll down -->
+ 	<a href="#about" class="scroll-down">
+ 		<img src="img/icons/arrow-down.svg" alt="scroll Down">
+ 	</a>
+ </section>
+ <!-- Home Section End -->
+
+ <!-- About Section Start -->
+ <section class="about-section" id="about">
+ 	<div class="container">
+ 		<div class="row">
+ 			<div class="about-img">
+ 				<div class="img-box">
+ 					<div class="shape-02">
+ 					</div>
+ 					<img src="img/about.jpg" alt="about me">
+ 				</div>
+ 			</div>
+ 			<div class="about-content">
+ 			   <div class="row">
+                 <div class="section-title">
+               	   <h1>About Me</h1>
+                 </div>
+               </div>
+               <p></p>
+
+               <div class="stats">
+               	  <div class="row">
+               	  	 <div class="stat-box">
+               	  	 	<h2>51</h2>
+               	  	 	<h5>Game Won</h5>
+               	  	 </div>
+               	  	 <div class="stat-box">
+               	  	 	<h2>21</h2>
+               	  	 	<h5>Steam level</h5>
+               	  	 </div>
+               	  	 <div class="stat-box">
+               	  	 	<h2>36</h2>
+               	  	 	<h5>Steam awards</h5>
+               	  	 </div>
+               	  	 <div class="stat-box">
+               	  	 	<h2>12</h2>
+               	  	 	<h5>International awards</h5>
+               	  	 </div>
+               	  </div>
+               </div>
+               <!-- contact btn -->
+               <a href="#contact" class="btn btn-01">Contact Me</a>
+
+ 			</div>
+ 		</div>
+ 	</div>
+ </section>
+ <!-- About Section End -->
+
+ <!-- Service Section Start -->
+ <section class="service-section" id="services">
+ 	<div class="container">
+ 		<div class="row">
+ 			<div class="section-title">
+ 				<h1>What I Do ?</h1>
+ 			</div>
+ 		</div>
+ 		<div class="row">
+ 			<!-- service Item Start -->
+ 			<div class="service-item">
+ 				<div class="service-item-inner">
+ 					<img src="img/service/1.jpg" alt="service">
+ 					<div class="overlay">
+ 						<h4>Steam Collecter</h4>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<!-- service Item End -->
+ 			<!-- service Item Start -->
+ 			<div class="service-item">
+ 				<div class="service-item-inner">
+ 					<img src="img/service/2.jpg" alt="service">
+ 					<div class="overlay">
+ 						<h4>Level Upgrade</h4>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<!-- service Item End -->
+ 			<!-- service Item Start -->
+ 			<div class="service-item">
+ 				<div class="service-item-inner">
+ 					<img src="img/service/3.jpg" alt="service">
+ 					<div class="overlay">
+ 						<h4>Badges Collecter</h4>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<!-- service Item End -->
+ 			<!-- service Item Start -->
+ 			<div class="service-item">
+ 				<div class="service-item-inner">
+ 					<img src="img/service/4.jpg" alt="service">
+ 					<div class="overlay">
+ 						<h4>Achievement Progress</h4>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<!-- service Item End -->
+ 			<!-- service Item Start -->
+ 			<div class="service-item">
+ 				<div class="service-item-inner">
+ 					<img src="img/service/5.jpg" alt="service">
+ 					<div class="overlay">
+ 						<h4>Skins Collecter</h4>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<!-- service Item End -->
+ 			<!-- service Item Start -->
+ 			<div class="service-item">
+ 				<div class="service-item-inner">
+ 					<img src="img/service/6.jpg" alt="service">
+ 					<div class="overlay">
+ 						<h4>Stream Moments</h4>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<!-- service Item End -->
+ 		</div>
+ 	</div>
+ </section>
+ <!-- Service Section End -->
+
+ <!-- Work Section Start -->
+ <section class="work-section" id="works">
+ 	<div class="container">
+ 		<div class="row">
+ 			<div class="section-title">
+ 				<h1>My Works</h1>
+ 			</div>
+ 		</div>
+ 		<div class="row">
+ 			<!-- Work Item Start -->
+ 			<div class="work-item">
+ 				<div class="work-item-inner">
+ 					<img src="img/works/thumb/1.jpg" data-large="img/works/large/1.jpg" alt="work">
+ 					<div class="overlay">
+ 						<h4>First MVP</h4>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<!-- Work Item End -->
+ 			<!-- Work Item Start -->
+ 			<div class="work-item">
+ 				<div class="work-item-inner">
+ 					<img src="img/works/thumb/2.jpg" data-large="img/works/large/2.jpg" alt="work">
+ 					<div class="overlay">
+ 						<h4>Skin Win</h4>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<!-- Work Item End -->
+ 			<!-- Work Item Start -->
+ 			<div class="work-item">
+ 				<div class="work-item-inner">
+ 					<img src="img/works/thumb/3.jpg" data-large="img/works/large/3.jpg" alt="work">
+ 					<div class="overlay">
+ 						<h4>Drunk Player</h4>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<!-- Work Item End -->
+ 			<!-- Work Item Start -->
+ 			<div class="work-item">
+ 				<div class="work-item-inner">
+ 					<img src="img/works/thumb/4.jpg" data-large="img/works/large/4.jpg" alt="work">
+ 					<div class="overlay">
+ 						<h4>Random Cases</h4>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<!-- Work Item End -->
+ 			<!-- Work Item Start -->
+ 			<div class="work-item">
+ 				<div class="work-item-inner">
+ 					<img src="img/works/thumb/5.jpg" data-large="img/works/large/5.jpg" alt="work">
+ 					<div class="overlay">
+ 						<h4>CS:GO Skins</h4>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<!-- Work Item End -->
+ 			<!-- Work Item Start -->
+ 			<div class="work-item">
+ 				<div class="work-item-inner">
+ 					<img src="img/works/thumb/6.jpg" data-large="img/works/large/6.jpg" alt="work">
+ 					<div class="overlay">
+ 						<h4>DOTA 2 Skins</h4>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<!-- Work Item End -->
+ 		</div>
+ 	</div>
+ </section>
+ <!-- Work Section End --> 
+
+
+<!-- Contact Section Start -->
+<section class="contact-section" id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-img">
+				<div class="img-box">
+					<div class="section-title">
+						<h1>Contact Me</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+        <div class="row">
+        	<div class="contact-form">
+        		<form class="form">
+        			<div class="row">
+        				<div class="left input-group">
+        					<label>Name</label>
+        					<input type="text" placeholder="Your Name Here" class="input-control">
+        				</div>
+        				<div class="right input-group">
+        					<label>Email or Phone</label>
+        					<input type="email" placeholder="Your Email or Phone Here" class="input-control">
+        				</div>
+        			</div>
+        			<div class="row">
+        				<div class="input-group">
+        					<label>Message</label>
+        					<textarea class="input-control" placeholder="Your Message Here"></textarea>
+        				</div>
+        			</div>
+        			<div class="form-btn">
+        				<button type="button" class="btn btn-01">Send Message</button>
+        			</div>
+        		</form>
+        	</div>
+        </div>
+        <div class="row">
+        	<div class="contact-info">
+        		<div class="row">
+        			<!-- info item start -->
+        			<div class="info-item">
+        				<h5>Address</h5>
+        				<p>Out of this world</p>
+        			</div>
+        			<!-- info item end -->
+        			<!-- info item start -->
+        			<div class="info-item">
+        				<h5>Phone</h5>
+        				<p>26 499 227</p>
+        			</div>
+        			<!-- info item end -->
+        			<!-- info item start -->
+        			<div class="info-item">
+        				<h5>Email</h5>
+        				<p>oussama.fajraoui1@gmail.com</p>
+        			</div>
+        			<!-- info item end -->
+        		</div>
+        	</div>
+        </div>
+
+        <div class="row">
+        	<div class="social-links">
+        		<a href="https://www.facebook.com/oussama.fajraouigamer/" title="facebook"><img src="img/icons/facebook.svg" alt="facebook"></a>
+        		<a href="https://twitter.com/OFajraoui" title="twitter"><img src="img/icons/twitter.svg" alt="twitter"></a>
+        		<a href="https://www.linkedin.com/in/oussama-fajraoui-59436b22b/" title="linkedin"><img src="img/icons/linkedin.svg" alt="linkedin"></a>
+        		<a href="#" title="instagram"><img src="img/icons/instagram.svg" alt="instagram"></a>
+        	</div>
+        </div>
+
+	</div>
+</section>
+<!-- Contact Section End -->
+
+<!-- copyright text -->
+<p class="copyright">&copy; 2020 The WebShala</p>
+
+
+ <!-- lightbox start -->
+<div class="lightbox">
+  <div class="img-box">
+    <div class="lightbox-close">&times;</div>
+    <img src="img/works/large/2.jpg" class="lightbox-img" alt="img">
+    <div class="lightbox-caption">
+      <div class="lightbox-category">
         
-    </div>  
+      </div>
+      <div class="lightbox-counter">
+        
+      </div>
+    </div>
+    <div class="lightbox-controls">
+      <div class="prev">
+        <img src="img/icons/prev.svg" alt="prev">
+            </div>
+            <div class="next">
+              <img src="img/icons/next.svg" alt="next">
+            </div>
+    </div>
+  </div>
 </div>
-    <details>
-        <summary>About US</summary>
-        <img src="Pictures/image1.avif" width=200px><br>
-        <img src="Pictures/image2.avif" width=200px><br>
-        <img src="Pictures/image3.jpg" width=200px><br>
-        <img src="Pictures/image4.jpg" width=200px><br>
-        <a href="https://www.facebook.com/RBKTunisia/" target="_blank">Facebook</a><br>
-        <a href="https://www.google.com/maps?cid=8317426511974087982" target="_blank">Place</a>
-    </details>
-</div>
-    <script type="text/javascript" src="main.js"></script>
+<!-- lightbox end -->
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
