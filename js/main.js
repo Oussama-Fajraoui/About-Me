@@ -91,12 +91,13 @@
        	 $(this).removeClass("open");
        }
      })
-     $(".btn btn-01").click(function(){
-       setTimeout(function(){
-         console.log("Your Message has been send!")
-       },1000)
-     })
-  })
+  });
+  let test=document.getElementsByClassName('btn btn-01')
+let test.addEventListener('keyup', function(){
+  time=setTimeout(function(){
+    console.log('Your message has been sent')
+  },1000)
+})
 
   function lightboxSlideShow(){
     const imgSrc = $(".work-item").eq(index).find("img").attr("data-large");
